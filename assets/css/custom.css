@@ -1,0 +1,1444 @@
+.blue-custom {
+	background-color: #0176bb;
+}
+.blue-custom-text {
+	color: #0176bb;
+}
+header,
+nav {
+	height: 100px;
+}
+nav .brand-logo {
+	left: 60px;
+	height: 100px;
+}
+nav .button-collapse {
+	position: absolute;
+	right: 0;
+	top: 30px;
+	height: 40px;
+	width: 40px;
+}
+nav .button-collapse img {
+	height: 40px;
+	width: 40px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0;
+}
+nav .scrollspy {
+	justify-content: space-around;
+	height: 100px;
+	line-height: 100px;
+}
+nav ul a {
+	font-size: 20px;
+}
+header .cta {
+	width: 300px;
+	height: 100px;
+	position: absolute;
+	right: 10px;
+	top: 0;
+	text-align: center;
+}
+header .phone,
+nav .info {
+	height: 50px;
+	line-height: 25px;
+}
+header .cta p {
+	font-size: 1em;
+	width: 100%;
+	clear: both;
+	line-height: 10px;
+	text-align: center;
+}
+.call {
+	margin: 0;
+	right: 0;
+	height: 30px;
+	text-align: center;
+}
+#greeting-section .filter {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 50;
+}
+#greeting-section .info {
+	position: relative;
+	z-index: 100;
+	height: 600px;
+}
+#greeting-section .parallax img {
+	z-index: 25;
+}
+#greeting-section .header {
+	line-height: 1.5;
+}
+.parallax-container {
+	height: 700px;
+}
+#steps .huge {
+	font-size: 72px;
+	font-weight: bold;
+}
+#steps .descr-step {
+	font-size: 32px;
+	text-align: left;
+}
+#cta [type="checkbox"] + label,
+#cta2 [type="checkbox"] + label {
+	height: 30px;
+	line-height: 30px;
+	font-size: 25px;
+}
+#cta label a,
+#cta2 label a,
+.underline {
+	text-decoration: underline;
+}
+#cta [type="checkbox"].filled-in:not(:checked) + label:after,
+#cta [type="checkbox"]:not(:checked),
+[type="checkbox"]:checked,
+#cta [type="checkbox"].filled-in:checked + label:after,
+#cta2 [type="checkbox"].filled-in:not(:checked) + label:after,
+#cta2 [type="checkbox"]:not(:checked),
+[type="checkbox"]:checked,
+#cta2 [type="checkbox"].filled-in:checked + label:after {
+	height: 30px;
+	width: 30px;
+}
+#cta [type="checkbox"].filled-in:checked + label:before,
+#cta2 [type="checkbox"].filled-in:checked + label:before {
+	left: 2px;
+	width: 12px;
+	height: 20px;
+}
+#cta [type="checkbox"].filled-in:checked + label:after,
+#cta2 [type="checkbox"].filled-in:checked + label:after {
+	border: 1px solid #fff;
+	background-color: #00E676;
+}
+#cta input:not([type]),
+#cta input[type=text],
+#cta input[type=password],
+#cta input[type=email],
+#cta input[type=url],
+#cta input[type=time],
+#cta input[type=date],
+#cta input[type=datetime],
+#cta input[type=datetime-local],
+#cta input[type=tel],
+#cta input[type=number],
+#cta input[type=search],
+#cta textarea.materialize-textarea #cta2 input:not([type]),
+#cta2 input[type=text],
+#cta2 input[type=password],
+#cta2 input[type=email],
+#cta2 input[type=url],
+#cta2 input[type=time],
+#cta2 input[type=date],
+#cta2 input[type=datetime],
+#cta2 input[type=datetime-local],
+#cta2 input[type=tel],
+#cta2 input[type=number],
+#cta2 input[type=search],
+#cta2 textarea.materialize-textarea {
+	font-size: 20px;
+	line-height: 20px;
+}
+#cta input:not([type]).validate + label,
+#cta input[type=text].validate + label,
+#cta input[type=password].validate + label,
+#cta input[type=email].validate + label,
+#cta input[type=url].validate + label,
+#cta input[type=time].validate + label,
+#cta input[type=date].validate + label,
+#cta input[type=datetime].validate + label,
+#cta input[type=datetime-local].validate + label,
+#cta input[type=tel].validate + label,
+#cta input[type=number].validate + label,
+#cta input[type=search].validate + label,
+#cta textarea.materialize-textarea.validate + label,
+#cta2 input:not([type]).validate + label,
+#cta2 input[type=text].validate + label,
+#cta2 input[type=password].validate + label,
+#cta2 input[type=email].validate + label,
+#cta2 input[type=url].validate + label,
+#cta2 input[type=time].validate + label,
+#cta2 input[type=date].validate + label,
+#cta2 input[type=datetime].validate + label,
+#cta2 input[type=datetime-local].validate + label,
+#cta2 input[type=tel].validate + label,
+#cta2 input[type=number].validate + label,
+#cta2 input[type=search].validate + label,
+#cta2 textarea.materialize-textarea.validate + label {
+	font-size: 18px;
+	line-height: 20px;
+}
+#cta form span.character-counter,
+#cta2 form span.character-counter {
+	font-size: 16px !important;
+	color: #00E676;
+}
+#about p {
+	font-size: 30px;
+	word-spacing: 3px;
+}
+#participate ul {
+	font-size: 30px;
+	word-spacing: 3px;
+}
+.participate-conditions li:before {
+	content: '•';
+	position: absolute;
+	font-size: 60px;
+	line-height: 75%;
+	margin-left: -30px;
+	height: 30px;
+	width: 30px;
+	color: #fff;
+}
+#protocol ul {
+	font-size: 30px;
+	word-spacing: 3px;
+}
+.protocol-steps li p {
+	margin: 25px 0;
+}
+.protocol-steps li:before {
+	content: '•';
+	position: absolute;
+	font-size: 60px;
+	line-height: 75%;
+	margin-left: -30px;
+	height: 30px;
+	width: 30px;
+	color: #0176bb;
+}
+#questions button {
+	font-size: 1em;
+	line-height: 1.5;
+	height: 50px;
+	margin: 20px 0;
+	padding: 0 2em;
+}
+footer {
+	height: 140px;
+	background-color: #f4f4f5;
+	padding: 0;
+}
+footer a {
+	height: 140px;
+}
+footer .row {
+	margin-bottom: 0;
+}
+footer .footer-logo {
+	height: 100px;
+	margin-top: 20px;
+}
+@media all and (min-width: 0) and (max-width: 480px) {
+	h2 {
+		font-size: 2.25em;
+	}
+	h3 {
+		font-size: 2em;
+	}
+	h4 {
+		font-size: 1.75em;
+	}
+	h5 {
+		font-size: 1.5em;
+	}
+	#greeting-section .info {
+		height: 90vh;
+	}
+	.parallax-container {
+		height: 100vh;
+	}
+	#steps .huge {
+		margin: 0;
+		font-size: 40px;
+	}
+	#about p,
+	#participate ul,
+	#protocol ul,
+	#steps .descr-step {
+		font-size: 1.5em;
+	}
+	#about p,
+	#protocol ul,
+	#participate ul {
+		margin-left: 7.5%;
+		margin-right: 5%;
+		width: 90%;
+	}
+
+	nav .brand-logo {
+		left: 40px;
+	}
+	header .cta {
+		position: absolute;
+		right: 0;
+		left: 0;
+		top: 35px;
+		width: auto;
+	}
+	.side-nav {
+		width: 200px;
+		background-color: rgba(50, 50, 50, .96);
+	}
+	.side-nav li {
+		line-height: normal;
+		width: 100%;
+	}
+	.side-nav a, .sidenav p,
+	#cta input:not([type]),
+	#cta input[type=text],
+	#cta input[type=password],
+	#cta input[type=email],
+	#cta input[type=url],
+	#cta input[type=time],
+	#cta input[type=date],
+	#cta input[type=datetime],
+	#cta input[type=datetime-local],
+	#cta input[type=tel],
+	#cta input[type=number],
+	#cta input[type=search],
+	#cta textarea.materialize-textarea #cta2 input:not([type]),
+	#cta2 input[type=text],
+	#cta2 input[type=password],
+	#cta2 input[type=email],
+	#cta2 input[type=url],
+	#cta2 input[type=time],
+	#cta2 input[type=date],
+	#cta2 input[type=datetime],
+	#cta2 input[type=datetime-local],
+	#cta2 input[type=tel],
+	#cta2 input[type=number],
+	#cta2 input[type=search],
+	#cta2 textarea.materialize-textarea {
+		font-size: 1.25em;
+	}
+	#cta input:not([type]).validate + label,
+	#cta input[type=text].validate + label,
+	#cta input[type=password].validate + label,
+	#cta input[type=email].validate + label,
+	#cta input[type=url].validate + label,
+	#cta input[type=time].validate + label,
+	#cta input[type=date].validate + label,
+	#cta input[type=datetime].validate + label,
+	#cta input[type=datetime-local].validate + label,
+	#cta input[type=tel].validate + label,
+	#cta input[type=number].validate + label,
+	#cta input[type=search].validate + label,
+	#cta textarea.materialize-textarea.validate + label,
+	#cta2 input:not([type]).validate + label,
+	#cta2 input[type=text].validate + label,
+	#cta2 input[type=password].validate + label,
+	#cta2 input[type=email].validate + label,
+	#cta2 input[type=url].validate + label,
+	#cta2 input[type=time].validate + label,
+	#cta2 input[type=date].validate + label,
+	#cta2 input[type=datetime].validate + label,
+	#cta2 input[type=datetime-local].validate + label,
+	#cta2 input[type=tel].validate + label,
+	#cta2 input[type=number].validate + label,
+	#cta2 input[type=search].validate + label,
+	#cta2 textarea.materialize-textarea.validate + label {
+		font-size: 1em;
+	}
+	#cta [type="checkbox"] + label,
+	#cta2 [type="checkbox"] + label {
+		font-size: 1.25em;
+	}
+	#cta [type="checkbox"].filled-in:not(:checked) + label:after,
+	#cta [type="checkbox"]:not(:checked),
+	[type="checkbox"]:checked,
+	#cta [type="checkbox"].filled-in:checked + label:after,
+	#cta2 [type="checkbox"].filled-in:not(:checked) + label:after,
+	#cta2 [type="checkbox"]:not(:checked),
+	[type="checkbox"]:checked,
+	#cta2 [type="checkbox"].filled-in:checked + label:after {
+		height: 25px;
+		width: 25px;
+		line-height: 25px;
+	}
+	#cta [type="checkbox"].filled-in:checked + label:before,
+	#cta2 [type="checkbox"].filled-in:checked + label:before {
+		width: 10px;
+		height: 15px;
+	}
+}
+@media all and (min-width: 481px) and (max-width: 640px) {
+	h2 {
+		font-size: 2.5em;
+	}
+	h3 {
+		font-size: 2.25em;
+	}
+	h4 {
+		font-size: 2em;
+	}
+	h5 {
+		font-size: 1.75em;
+	}
+	#greeting-section .info {
+		height: 90vh;
+	}
+	.parallax-container {
+		height: 100vh;
+	}
+	#steps .huge {
+		margin: 0;
+		font-size: 50px;
+	}
+	#steps .flex-row {
+		height: 200px;
+	}
+	#about p,
+	#participate ul,
+	#protocol ul,
+	#steps .descr-step {
+		font-size: 1.5em;
+	}
+	#about p,
+	#protocol ul,
+	#participate ul {
+		margin-left: 5%;
+		margin-right: 5%;
+		width: 90%;
+	}
+	nav .brand-logo {
+		left: 40px;
+	}
+	header .cta {
+		position: absolute;
+		right: 0;
+		left: 0;
+		top: 35px;
+		width: auto;
+	}
+	.side-nav {
+		width: 320px;
+		background-color: rgba(50, 50, 50, .96);
+	}
+	.side-nav li {
+		line-height: 1.25em;
+		width: 100%;
+	}
+	.side-nav li a{
+		line-height: 1.25em;
+	}
+	.side-nav a, .sidenav li p,
+	#cta input:not([type]),
+	#cta input[type=text],
+	#cta input[type=password],
+	#cta input[type=email],
+	#cta input[type=url],
+	#cta input[type=time],
+	#cta input[type=date],
+	#cta input[type=datetime],
+	#cta input[type=datetime-local],
+	#cta input[type=tel],
+	#cta input[type=number],
+	#cta input[type=search],
+	#cta textarea.materialize-textarea #cta2 input:not([type]),
+	#cta2 input[type=text],
+	#cta2 input[type=password],
+	#cta2 input[type=email],
+	#cta2 input[type=url],
+	#cta2 input[type=time],
+	#cta2 input[type=date],
+	#cta2 input[type=datetime],
+	#cta2 input[type=datetime-local],
+	#cta2 input[type=tel],
+	#cta2 input[type=number],
+	#cta2 input[type=search],
+	#cta2 textarea.materialize-textarea {
+		font-size: 1.5em;
+	}
+	#cta input:not([type]).validate + label,
+	#cta input[type=text].validate + label,
+	#cta input[type=password].validate + label,
+	#cta input[type=email].validate + label,
+	#cta input[type=url].validate + label,
+	#cta input[type=time].validate + label,
+	#cta input[type=date].validate + label,
+	#cta input[type=datetime].validate + label,
+	#cta input[type=datetime-local].validate + label,
+	#cta input[type=tel].validate + label,
+	#cta input[type=number].validate + label,
+	#cta input[type=search].validate + label,
+	#cta textarea.materialize-textarea.validate + label,
+	#cta2 input:not([type]).validate + label,
+	#cta2 input[type=text].validate + label,
+	#cta2 input[type=password].validate + label,
+	#cta2 input[type=email].validate + label,
+	#cta2 input[type=url].validate + label,
+	#cta2 input[type=time].validate + label,
+	#cta2 input[type=date].validate + label,
+	#cta2 input[type=datetime].validate + label,
+	#cta2 input[type=datetime-local].validate + label,
+	#cta2 input[type=tel].validate + label,
+	#cta2 input[type=number].validate + label,
+	#cta2 input[type=search].validate + label,
+	#cta2 textarea.materialize-textarea.validate + label {
+		font-size: 1.25em;
+	}
+	#cta [type="checkbox"] + label,
+	#cta2 [type="checkbox"] + label {
+		font-size: 1.5em;
+	}
+	#cta [type="checkbox"].filled-in:not(:checked) + label:after,
+	#cta [type="checkbox"]:not(:checked),
+	[type="checkbox"]:checked,
+	#cta [type="checkbox"].filled-in:checked + label:after,
+	#cta2 [type="checkbox"].filled-in:not(:checked) + label:after,
+	#cta2 [type="checkbox"]:not(:checked),
+	[type="checkbox"]:checked,
+	#cta2 [type="checkbox"].filled-in:checked + label:after {
+		height: 30px;
+		width: 30px;
+		line-height: 30px;
+	}
+	#cta [type="checkbox"].filled-in:checked + label:before,
+	#cta2 [type="checkbox"].filled-in:checked + label:before {
+		width: 15px;
+		height: 20px;
+	}
+	#questions button,
+	button,
+	.btn,
+	.btn-large {
+		font-size: 1.1em;
+	}
+}
+@media all and (min-width: 641px) and (max-width: 768px) {
+	nav ul a {
+		line-height: normal;
+	}
+	h2 {
+		font-size: 2.5em;
+	}
+	h3 {
+		font-size: 2.25em;
+	}
+	h4 {
+		font-size: 2em;
+	}
+	h5 {
+		font-size: 1.75em;
+	}
+	#greeting-section .info {
+		height: 90vh;
+	}
+	.parallax-container {
+		height: 100vh;
+	}
+	#steps .huge {
+		margin: 0;
+		font-size: 55px;
+	}
+	#steps .flex-row {
+		height: 225px;
+	}
+	#about p,
+	#participate ul,
+	#protocol ul,
+	#steps .descr-step {
+		font-size: 1.65em;
+	}
+	#about p,
+	#protocol ul,
+	#participate ul {
+		margin-left: 5%;
+		margin-right: 5%;
+		width: 90%;
+	}
+
+
+	nav .brand-logo {
+		left: 40px;
+	}
+	header .cta {
+		position: absolute;
+		right: 0;
+		left: 0;
+		top: 35px;
+		width: auto;
+	}
+	.side-nav {
+		width: 320px;
+		background-color: rgba(50, 50, 50, .96);
+	}
+	.side-nav li {
+		line-height: 1.5em;
+		width: 100%;
+	}
+	.side-nav li a{
+		line-height: 1.5em;
+	}
+	.side-nav a, .sidenav li p,
+	#cta input:not([type]),
+	#cta input[type=text],
+	#cta input[type=password],
+	#cta input[type=email],
+	#cta input[type=url],
+	#cta input[type=time],
+	#cta input[type=date],
+	#cta input[type=datetime],
+	#cta input[type=datetime-local],
+	#cta input[type=tel],
+	#cta input[type=number],
+	#cta input[type=search],
+	#cta textarea.materialize-textarea #cta2 input:not([type]),
+	#cta2 input[type=text],
+	#cta2 input[type=password],
+	#cta2 input[type=email],
+	#cta2 input[type=url],
+	#cta2 input[type=time],
+	#cta2 input[type=date],
+	#cta2 input[type=datetime],
+	#cta2 input[type=datetime-local],
+	#cta2 input[type=tel],
+	#cta2 input[type=number],
+	#cta2 input[type=search],
+	#cta2 textarea.materialize-textarea {
+		font-size: 1.75em;
+	}
+	#cta input:not([type]).validate + label,
+	#cta input[type=text].validate + label,
+	#cta input[type=password].validate + label,
+	#cta input[type=email].validate + label,
+	#cta input[type=url].validate + label,
+	#cta input[type=time].validate + label,
+	#cta input[type=date].validate + label,
+	#cta input[type=datetime].validate + label,
+	#cta input[type=datetime-local].validate + label,
+	#cta input[type=tel].validate + label,
+	#cta input[type=number].validate + label,
+	#cta input[type=search].validate + label,
+	#cta textarea.materialize-textarea.validate + label,
+	#cta2 input:not([type]).validate + label,
+	#cta2 input[type=text].validate + label,
+	#cta2 input[type=password].validate + label,
+	#cta2 input[type=email].validate + label,
+	#cta2 input[type=url].validate + label,
+	#cta2 input[type=time].validate + label,
+	#cta2 input[type=date].validate + label,
+	#cta2 input[type=datetime].validate + label,
+	#cta2 input[type=datetime-local].validate + label,
+	#cta2 input[type=tel].validate + label,
+	#cta2 input[type=number].validate + label,
+	#cta2 input[type=search].validate + label,
+	#cta2 textarea.materialize-textarea.validate + label {
+		font-size: 1.5em;
+	}
+	#cta [type="checkbox"] + label,
+	#cta2 [type="checkbox"] + label {
+		font-size: 1.75em;
+	}
+	#cta [type="checkbox"].filled-in:not(:checked) + label:after,
+	#cta [type="checkbox"]:not(:checked),
+	[type="checkbox"]:checked,
+	#cta [type="checkbox"].filled-in:checked + label:after,
+	#cta2 [type="checkbox"].filled-in:not(:checked) + label:after,
+	#cta2 [type="checkbox"]:not(:checked),
+	[type="checkbox"]:checked,
+	#cta2 [type="checkbox"].filled-in:checked + label:after {
+		height: 30px;
+		width: 30px;
+		line-height: 30px;
+	}
+	#cta [type="checkbox"].filled-in:checked + label:before,
+	#cta2 [type="checkbox"].filled-in:checked + label:before {
+		width: 12px;
+		height: 18px;
+	}
+	#questions button,
+	button,
+	.btn,
+	.btn-large {
+		font-size: 1.15em;
+	}
+}
+@media all and (min-width: 769px) and (max-width: 992px) {
+	nav ul a {
+		line-height: normal;
+	}
+	h2 {
+		font-size: 2.75em;
+	}
+	h3 {
+		font-size: 2.5em;
+	}
+	h4 {
+		font-size: 2.25em;
+	}
+	h5 {
+		font-size: 2em;
+	}
+	#greeting-section .info {
+		height: 90%;
+	}
+	.parallax-container {
+		height: 600px;
+	}
+	#steps .huge {
+		margin: 0;
+		font-size: 55px;
+	}
+	#steps .flex-row {
+		height: 225px;
+	}
+	#about p,
+	#participate ul,
+	#protocol ul,
+	#steps .descr-step {
+		font-size: 1.85em;
+	}
+	#about p,
+	#protocol ul,
+	#participate ul {
+		margin-left: 5%;
+		margin-right: 5%;
+		width: 90%;
+	}
+
+	nav .brand-logo {
+		left: 40px;
+	}
+	header .cta {
+		position: absolute;
+		right: 0;
+		left: 0;
+		top: 35px;
+		width: auto;
+	}
+	.side-nav {
+		width: 320px;
+		background-color: rgba(50, 50, 50, .96);
+	}
+	.side-nav li {
+		line-height: 1.5em;
+		width: 100%;
+	}
+	.side-nav li a{
+		line-height: 1.5em;
+	}
+	.side-nav a, .sidenav li p,
+	#cta input:not([type]),
+	#cta input[type=text],
+	#cta input[type=password],
+	#cta input[type=email],
+	#cta input[type=url],
+	#cta input[type=time],
+	#cta input[type=date],
+	#cta input[type=datetime],
+	#cta input[type=datetime-local],
+	#cta input[type=tel],
+	#cta input[type=number],
+	#cta input[type=search],
+	#cta textarea.materialize-textarea #cta2 input:not([type]),
+	#cta2 input[type=text],
+	#cta2 input[type=password],
+	#cta2 input[type=email],
+	#cta2 input[type=url],
+	#cta2 input[type=time],
+	#cta2 input[type=date],
+	#cta2 input[type=datetime],
+	#cta2 input[type=datetime-local],
+	#cta2 input[type=tel],
+	#cta2 input[type=number],
+	#cta2 input[type=search],
+	#cta2 textarea.materialize-textarea {
+		font-size: 2em;
+	}
+	#cta input:not([type]).validate + label,
+	#cta input[type=text].validate + label,
+	#cta input[type=password].validate + label,
+	#cta input[type=email].validate + label,
+	#cta input[type=url].validate + label,
+	#cta input[type=time].validate + label,
+	#cta input[type=date].validate + label,
+	#cta input[type=datetime].validate + label,
+	#cta input[type=datetime-local].validate + label,
+	#cta input[type=tel].validate + label,
+	#cta input[type=number].validate + label,
+	#cta input[type=search].validate + label,
+	#cta textarea.materialize-textarea.validate + label,
+	#cta2 input:not([type]).validate + label,
+	#cta2 input[type=text].validate + label,
+	#cta2 input[type=password].validate + label,
+	#cta2 input[type=email].validate + label,
+	#cta2 input[type=url].validate + label,
+	#cta2 input[type=time].validate + label,
+	#cta2 input[type=date].validate + label,
+	#cta2 input[type=datetime].validate + label,
+	#cta2 input[type=datetime-local].validate + label,
+	#cta2 input[type=tel].validate + label,
+	#cta2 input[type=number].validate + label,
+	#cta2 input[type=search].validate + label,
+	#cta2 textarea.materialize-textarea.validate + label {
+		font-size: 1.75em;
+	}
+	#cta [type="checkbox"] + label,
+	#cta2 [type="checkbox"] + label {
+		font-size: 2em;
+	}
+	#cta [type="checkbox"].filled-in:not(:checked) + label:after,
+	#cta [type="checkbox"]:not(:checked),
+	[type="checkbox"]:checked,
+	#cta [type="checkbox"].filled-in:checked + label:after,
+	#cta2 [type="checkbox"].filled-in:not(:checked) + label:after,
+	#cta2 [type="checkbox"]:not(:checked),
+	[type="checkbox"]:checked,
+	#cta2 [type="checkbox"].filled-in:checked + label:after {
+		height: 30px;
+		width: 30px;
+		line-height: 30px;
+	}
+	#cta [type="checkbox"].filled-in:checked + label:before,
+	#cta2 [type="checkbox"].filled-in:checked + label:before {
+		width: 14px;
+		height: 18px;
+	}
+	#questions button,
+	button,
+	.btn,
+	.btn-large {
+		font-size: 1.25em;
+	}
+}
+@media all and (min-width: 993px) and (max-width: 1024px) {
+	nav ul a {
+		line-height: normal;
+	}
+	header .cta {
+		width: auto;
+	}
+	h2 {
+		font-size: 3em;
+	}
+	h3 {
+		font-size: 2.75em;
+	}
+	h4 {
+		font-size: 2.5em;
+	}
+	h5 {
+		font-size: 2.25em;
+	}
+	#greeting-section .info {
+		height: 90%;
+	}
+	.parallax-container {
+		height: 600px;
+	}
+	#steps .huge {
+		margin: 0;
+		font-size: 60px;
+	}
+
+	#steps .flex-row {
+		height: 240px;
+	}
+	#about p,
+	#participate ul,
+	#protocol ul,
+	#steps .descr-step {
+		font-size: 1.75em;
+	}
+	#about p,
+	#protocol ul,
+	#participate ul {
+		margin-left: 5%;
+		margin-right: 5%;
+		width: 90%;
+	}
+	#cta input:not([type]),
+	#cta input[type=text],
+	#cta input[type=password],
+	#cta input[type=email],
+	#cta input[type=url],
+	#cta input[type=time],
+	#cta input[type=date],
+	#cta input[type=datetime],
+	#cta input[type=datetime-local],
+	#cta input[type=tel],
+	#cta input[type=number],
+	#cta input[type=search],
+	#cta textarea.materialize-textarea #cta2 input:not([type]),
+	#cta2 input[type=text],
+	#cta2 input[type=password],
+	#cta2 input[type=email],
+	#cta2 input[type=url],
+	#cta2 input[type=time],
+	#cta2 input[type=date],
+	#cta2 input[type=datetime],
+	#cta2 input[type=datetime-local],
+	#cta2 input[type=tel],
+	#cta2 input[type=number],
+	#cta2 input[type=search],
+	#cta2 textarea.materialize-textarea {
+		font-size: 2em;
+	}
+	#cta input:not([type]).validate + label,
+	#cta input[type=text].validate + label,
+	#cta input[type=password].validate + label,
+	#cta input[type=email].validate + label,
+	#cta input[type=url].validate + label,
+	#cta input[type=time].validate + label,
+	#cta input[type=date].validate + label,
+	#cta input[type=datetime].validate + label,
+	#cta input[type=datetime-local].validate + label,
+	#cta input[type=tel].validate + label,
+	#cta input[type=number].validate + label,
+	#cta input[type=search].validate + label,
+	#cta textarea.materialize-textarea.validate + label,
+	#cta2 input:not([type]).validate + label,
+	#cta2 input[type=text].validate + label,
+	#cta2 input[type=password].validate + label,
+	#cta2 input[type=email].validate + label,
+	#cta2 input[type=url].validate + label,
+	#cta2 input[type=time].validate + label,
+	#cta2 input[type=date].validate + label,
+	#cta2 input[type=datetime].validate + label,
+	#cta2 input[type=datetime-local].validate + label,
+	#cta2 input[type=tel].validate + label,
+	#cta2 input[type=number].validate + label,
+	#cta2 input[type=search].validate + label,
+	#cta2 textarea.materialize-textarea.validate + label {
+		font-size: 1.5em;
+	}
+	#cta [type="checkbox"] + label,
+	#cta2 [type="checkbox"] + label {
+		font-size: 2em;
+	}
+	#cta [type="checkbox"].filled-in:not(:checked) + label:after,
+	#cta [type="checkbox"]:not(:checked),
+	[type="checkbox"]:checked,
+	#cta [type="checkbox"].filled-in:checked + label:after,
+	#cta2 [type="checkbox"].filled-in:not(:checked) + label:after,
+	#cta2 [type="checkbox"]:not(:checked),
+	[type="checkbox"]:checked,
+	#cta2 [type="checkbox"].filled-in:checked + label:after {
+		height: 30px;
+		width: 30px;
+		line-height: 30px;
+	}
+	#cta [type="checkbox"].filled-in:checked + label:before,
+	#cta2 [type="checkbox"].filled-in:checked + label:before {
+		width: 15px;
+		height: 20px;
+	}
+	#questions button,
+	button,
+	.btn,
+	.btn-large {
+		font-size: 1.5em;
+	}
+}
+@media all and (min-width: 1025px) and (max-width: 1280px) {
+	nav ul a {
+		font-size: 1.25em;
+		line-height: normal;
+	}
+	header .cta {
+		right: 50px;
+		width: auto;
+	}
+	h2 {
+		font-size: 2em;
+	}
+	h3 {
+		font-size: 1.75em;
+	}
+	h4 {
+		font-size: 1.5em;
+	}
+	h5 {
+		font-size: 1.25em;
+	}
+	#greeting-section .info {
+		height: 90%;
+	}
+	.parallax-container {
+		height: 600px;
+	}
+	#steps .huge {
+		margin: 0;
+		font-size: 60px;
+	}
+	#steps .flex-row {
+		height: 160px;
+	}
+	#about p,
+	#participate ul,
+	#protocol ul,
+	#steps .descr-step {
+		font-size: 1.5em;
+	}
+	#cta input:not([type]),
+	#cta input[type=text],
+	#cta input[type=password],
+	#cta input[type=email],
+	#cta input[type=url],
+	#cta input[type=time],
+	#cta input[type=date],
+	#cta input[type=datetime],
+	#cta input[type=datetime-local],
+	#cta input[type=tel],
+	#cta input[type=number],
+	#cta input[type=search],
+	#cta textarea.materialize-textarea #cta2 input:not([type]),
+	#cta2 input[type=text],
+	#cta2 input[type=password],
+	#cta2 input[type=email],
+	#cta2 input[type=url],
+	#cta2 input[type=time],
+	#cta2 input[type=date],
+	#cta2 input[type=datetime],
+	#cta2 input[type=datetime-local],
+	#cta2 input[type=tel],
+	#cta2 input[type=number],
+	#cta2 input[type=search],
+	#cta2 textarea.materialize-textarea {
+		font-size: 1.125em;
+	}
+	#cta input:not([type]).validate + label,
+	#cta input[type=text].validate + label,
+	#cta input[type=password].validate + label,
+	#cta input[type=email].validate + label,
+	#cta input[type=url].validate + label,
+	#cta input[type=time].validate + label,
+	#cta input[type=date].validate + label,
+	#cta input[type=datetime].validate + label,
+	#cta input[type=datetime-local].validate + label,
+	#cta input[type=tel].validate + label,
+	#cta input[type=number].validate + label,
+	#cta input[type=search].validate + label,
+	#cta textarea.materialize-textarea.validate + label,
+	#cta2 input:not([type]).validate + label,
+	#cta2 input[type=text].validate + label,
+	#cta2 input[type=password].validate + label,
+	#cta2 input[type=email].validate + label,
+	#cta2 input[type=url].validate + label,
+	#cta2 input[type=time].validate + label,
+	#cta2 input[type=date].validate + label,
+	#cta2 input[type=datetime].validate + label,
+	#cta2 input[type=datetime-local].validate + label,
+	#cta2 input[type=tel].validate + label,
+	#cta2 input[type=number].validate + label,
+	#cta2 input[type=search].validate + label,
+	#cta2 textarea.materialize-textarea.validate + label {
+		font-size: 1.25em;
+	}
+	#cta [type="checkbox"] + label,
+	#cta2 [type="checkbox"] + label {
+		font-size: 1.125em;
+	}
+	#cta [type="checkbox"].filled-in:not(:checked) + label:after,
+	#cta [type="checkbox"]:not(:checked),
+	[type="checkbox"]:checked,
+	#cta [type="checkbox"].filled-in:checked + label:after,
+	#cta2 [type="checkbox"].filled-in:not(:checked) + label:after,
+	#cta2 [type="checkbox"]:not(:checked),
+	[type="checkbox"]:checked,
+	#cta2 [type="checkbox"].filled-in:checked + label:after {
+		height: 30px;
+		width: 30px;
+		line-height: 30px;
+	}
+	#cta [type="checkbox"].filled-in:checked + label:before,
+	#cta2 [type="checkbox"].filled-in:checked + label:before {
+		width: 15px;
+		height: 20px;
+	}
+	#questions button,
+	button,
+	.btn,
+	.btn-large {
+		font-size: 1.1em;
+	}
+}
+@media all and (min-width: 1281px) and (max-width: 1600px) {
+	nav ul a {
+		font-size: 1.5em;
+		line-height: normal;
+	}
+	header .cta {
+		right: 75px;
+		width: auto;
+	}
+	h2 {
+		font-size: 2.25em;
+	}
+	h3 {
+		font-size: 2em;
+	}
+	h4 {
+		font-size: 1.75em;
+	}
+	h5 {
+		font-size: 1.5em;
+	}
+	#greeting-section .info {
+		height: 90%;
+	}
+	.parallax-container {
+		height: 800px;
+	}
+	#steps .huge {
+		margin: 0;
+		font-size: 60px;
+	}
+	#steps .flex-row {
+		height: 125px;
+	}
+	#about p,
+	#participate ul,
+	#protocol ul,
+	#steps .descr-step {
+		font-size: 1.25em;
+	}
+	#cta input:not([type]),
+	#cta input[type=text],
+	#cta input[type=password],
+	#cta input[type=email],
+	#cta input[type=url],
+	#cta input[type=time],
+	#cta input[type=date],
+	#cta input[type=datetime],
+	#cta input[type=datetime-local],
+	#cta input[type=tel],
+	#cta input[type=number],
+	#cta input[type=search],
+	#cta textarea.materialize-textarea #cta2 input:not([type]),
+	#cta2 input[type=text],
+	#cta2 input[type=password],
+	#cta2 input[type=email],
+	#cta2 input[type=url],
+	#cta2 input[type=time],
+	#cta2 input[type=date],
+	#cta2 input[type=datetime],
+	#cta2 input[type=datetime-local],
+	#cta2 input[type=tel],
+	#cta2 input[type=number],
+	#cta2 input[type=search],
+	#cta2 textarea.materialize-textarea {
+		font-size: 1.4em;
+	}
+	#cta input:not([type]).validate + label,
+	#cta input[type=text].validate + label,
+	#cta input[type=password].validate + label,
+	#cta input[type=email].validate + label,
+	#cta input[type=url].validate + label,
+	#cta input[type=time].validate + label,
+	#cta input[type=date].validate + label,
+	#cta input[type=datetime].validate + label,
+	#cta input[type=datetime-local].validate + label,
+	#cta input[type=tel].validate + label,
+	#cta input[type=number].validate + label,
+	#cta input[type=search].validate + label,
+	#cta textarea.materialize-textarea.validate + label,
+	#cta2 input:not([type]).validate + label,
+	#cta2 input[type=text].validate + label,
+	#cta2 input[type=password].validate + label,
+	#cta2 input[type=email].validate + label,
+	#cta2 input[type=url].validate + label,
+	#cta2 input[type=time].validate + label,
+	#cta2 input[type=date].validate + label,
+	#cta2 input[type=datetime].validate + label,
+	#cta2 input[type=datetime-local].validate + label,
+	#cta2 input[type=tel].validate + label,
+	#cta2 input[type=number].validate + label,
+	#cta2 input[type=search].validate + label,
+	#cta2 textarea.materialize-textarea.validate + label {
+		font-size: 1.2em;
+	}
+	#cta [type="checkbox"] + label,
+	#cta2 [type="checkbox"] + label {
+		font-size: 1.4em;
+	}
+	#cta [type="checkbox"].filled-in:not(:checked) + label:after,
+	#cta [type="checkbox"]:not(:checked),
+	[type="checkbox"]:checked,
+	#cta [type="checkbox"].filled-in:checked + label:after,
+	#cta2 [type="checkbox"].filled-in:not(:checked) + label:after,
+	#cta2 [type="checkbox"]:not(:checked),
+	[type="checkbox"]:checked,
+	#cta2 [type="checkbox"].filled-in:checked + label:after {
+		height: 30px;
+		width: 30px;
+		line-height: 30px;
+	}
+	#cta [type="checkbox"].filled-in:checked + label:before,
+	#cta2 [type="checkbox"].filled-in:checked + label:before {
+		width: 15px;
+		height: 20px;
+	}
+	#questions button,
+	button,
+	.btn,
+	.btn-large {
+		font-size: 1.15em;
+	}
+}
+@media all and (min-width: 1601px) and (max-width: 1920px) {
+	nav ul a {
+		font-size: 2em;
+		width: auto;
+		line-height: normal;
+	}
+	header .cta {
+		right: 100px;
+		width: auto;
+	}
+	h2 {
+		font-size: 2.5em;
+	}
+	h3 {
+		font-size: 2.5em;
+	}
+	h4 {
+		font-size: 2.25em;
+	}
+	h5 {
+		font-size: 2em;
+	}
+	#greeting-section .info {
+		height: 90%;
+	}
+	.parallax-container {
+		height: 100vh;
+	}
+	#steps .huge {
+		margin: 0;
+		font-size: 60px;
+	}
+	#steps .flex-row {
+		height: 100px;
+	}
+	#about p,
+	#participate ul,
+	#protocol ul,
+	#steps .descr-step {
+		font-size: 1.25em;
+	}
+	#cta input:not([type]),
+	#cta input[type=text],
+	#cta input[type=password],
+	#cta input[type=email],
+	#cta input[type=url],
+	#cta input[type=time],
+	#cta input[type=date],
+	#cta input[type=datetime],
+	#cta input[type=datetime-local],
+	#cta input[type=tel],
+	#cta input[type=number],
+	#cta input[type=search],
+	#cta textarea.materialize-textarea #cta2 input:not([type]),
+	#cta2 input[type=text],
+	#cta2 input[type=password],
+	#cta2 input[type=email],
+	#cta2 input[type=url],
+	#cta2 input[type=time],
+	#cta2 input[type=date],
+	#cta2 input[type=datetime],
+	#cta2 input[type=datetime-local],
+	#cta2 input[type=tel],
+	#cta2 input[type=number],
+	#cta2 input[type=search],
+	#cta2 textarea.materialize-textarea {
+		font-size: 1.55em;
+	}
+	#cta input:not([type]).validate + label,
+	#cta input[type=text].validate + label,
+	#cta input[type=password].validate + label,
+	#cta input[type=email].validate + label,
+	#cta input[type=url].validate + label,
+	#cta input[type=time].validate + label,
+	#cta input[type=date].validate + label,
+	#cta input[type=datetime].validate + label,
+	#cta input[type=datetime-local].validate + label,
+	#cta input[type=tel].validate + label,
+	#cta input[type=number].validate + label,
+	#cta input[type=search].validate + label,
+	#cta textarea.materialize-textarea.validate + label,
+	#cta2 input:not([type]).validate + label,
+	#cta2 input[type=text].validate + label,
+	#cta2 input[type=password].validate + label,
+	#cta2 input[type=email].validate + label,
+	#cta2 input[type=url].validate + label,
+	#cta2 input[type=time].validate + label,
+	#cta2 input[type=date].validate + label,
+	#cta2 input[type=datetime].validate + label,
+	#cta2 input[type=datetime-local].validate + label,
+	#cta2 input[type=tel].validate + label,
+	#cta2 input[type=number].validate + label,
+	#cta2 input[type=search].validate + label,
+	#cta2 textarea.materialize-textarea.validate + label {
+		font-size: 1.9em;
+	}
+	#cta [type="checkbox"] + label,
+	#cta2 [type="checkbox"] + label {
+		font-size: 1.7em;
+	}
+	#cta [type="checkbox"].filled-in:not(:checked) + label:after,
+	#cta [type="checkbox"]:not(:checked),
+	[type="checkbox"]:checked,
+	#cta [type="checkbox"].filled-in:checked + label:after,
+	#cta2 [type="checkbox"].filled-in:not(:checked) + label:after,
+	#cta2 [type="checkbox"]:not(:checked),
+	[type="checkbox"]:checked,
+	#cta2 [type="checkbox"].filled-in:checked + label:after {
+		height: 30px;
+		width: 30px;
+		line-height: 30px;
+	}
+	#cta [type="checkbox"].filled-in:checked + label:before,
+	#cta2 [type="checkbox"].filled-in:checked + label:before {
+		width: 15px;
+		height: 20px;
+	}
+	#questions button,
+	button,
+	.btn,
+	.btn-large {
+		font-size: 1.5em;
+	}
+}
+
+@media all and (min-width: 1921px) {
+	nav ul a {
+		font-size: 2.25em;
+		width: auto;
+		line-height: normal;
+	}
+	header .cta {
+		right: 100px;
+		width: auto;
+	}
+	h2 {
+		font-size: 2.75em;
+	}
+	h3 {
+		font-size: 2.25em;
+	}
+	h4 {
+		font-size: 2.5em;
+	}
+	h5 {
+		font-size: 2.25em;
+	}
+	#greeting-section .info {
+		height: 90%;
+	}
+	.parallax-container {
+		height: 100vh;
+	}
+	#steps .huge {
+		margin: 0;
+		font-size: 60px;
+	}
+	#steps .flex-row {
+		height: 150px;
+	}
+	#about p,
+	#participate ul,
+	#protocol ul,
+	#steps .descr-step {
+		font-size: 1.75em;
+	}
+	#cta input:not([type]),
+	#cta input[type=text],
+	#cta input[type=password],
+	#cta input[type=email],
+	#cta input[type=url],
+	#cta input[type=time],
+	#cta input[type=date],
+	#cta input[type=datetime],
+	#cta input[type=datetime-local],
+	#cta input[type=tel],
+	#cta input[type=number],
+	#cta input[type=search],
+	#cta textarea.materialize-textarea #cta2 input:not([type]),
+	#cta2 input[type=text],
+	#cta2 input[type=password],
+	#cta2 input[type=email],
+	#cta2 input[type=url],
+	#cta2 input[type=time],
+	#cta2 input[type=date],
+	#cta2 input[type=datetime],
+	#cta2 input[type=datetime-local],
+	#cta2 input[type=tel],
+	#cta2 input[type=number],
+	#cta2 input[type=search],
+	#cta2 textarea.materialize-textarea {
+		font-size: 1.75em;
+	}
+	#cta input:not([type]).validate + label,
+	#cta input[type=text].validate + label,
+	#cta input[type=password].validate + label,
+	#cta input[type=email].validate + label,
+	#cta input[type=url].validate + label,
+	#cta input[type=time].validate + label,
+	#cta input[type=date].validate + label,
+	#cta input[type=datetime].validate + label,
+	#cta input[type=datetime-local].validate + label,
+	#cta input[type=tel].validate + label,
+	#cta input[type=number].validate + label,
+	#cta input[type=search].validate + label,
+	#cta textarea.materialize-textarea.validate + label,
+	#cta2 input:not([type]).validate + label,
+	#cta2 input[type=text].validate + label,
+	#cta2 input[type=password].validate + label,
+	#cta2 input[type=email].validate + label,
+	#cta2 input[type=url].validate + label,
+	#cta2 input[type=time].validate + label,
+	#cta2 input[type=date].validate + label,
+	#cta2 input[type=datetime].validate + label,
+	#cta2 input[type=datetime-local].validate + label,
+	#cta2 input[type=tel].validate + label,
+	#cta2 input[type=number].validate + label,
+	#cta2 input[type=search].validate + label,
+	#cta2 textarea.materialize-textarea.validate + label {
+		font-size: 1.5em;
+	}
+	#cta [type="checkbox"] + label,
+	#cta2 [type="checkbox"] + label {
+		font-size: 1.8em;
+	}
+	#cta [type="checkbox"].filled-in:not(:checked) + label:after,
+	#cta [type="checkbox"]:not(:checked),
+	[type="checkbox"]:checked,
+	#cta [type="checkbox"].filled-in:checked + label:after,
+	#cta2 [type="checkbox"].filled-in:not(:checked) + label:after,
+	#cta2 [type="checkbox"]:not(:checked),
+	[type="checkbox"]:checked,
+	#cta2 [type="checkbox"].filled-in:checked + label:after {
+		height: 30px;
+		width: 30px;
+		line-height: 30px;
+	}
+	#cta [type="checkbox"].filled-in:checked + label:before,
+	#cta2 [type="checkbox"].filled-in:checked + label:before {
+		width: 15px;
+		height: 20px;
+	}
+	#questions button,
+	button,
+	.btn,
+	.btn-large {
+		font-size: 1.75em;
+	}
+}

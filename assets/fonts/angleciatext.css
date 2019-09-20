@@ -1,0 +1,18 @@
+@font-face {
+	font-family: 'Anglecia Pro Txt';
+	src: local('Anglecia Pro Text Italic'), local('AngleciaProText-Italic'), url('Angleciaprotextitalic.woff2') format('woff2'), url('Angleciaprotextitalic.woff') format('woff'), url('Angleciaprotextitalic.ttf') format('truetype');
+	font-weight: 400;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Anglecia Pro Txt';
+	src: local('Anglecia Pro Text Regular'), local('AngleciaProText-Regular'), url('Angleciaprotextregular.woff2') format('woff2'), url('Angleciaprotextregular.woff') format('woff'), url('Angleciaprotextregular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+.angelicaReg {
+	font-family: 'Anglecia Pro Txt';
+	font-weight: 400;
+	font-style: normal;
+}
